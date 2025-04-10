@@ -1,5 +1,5 @@
 const materiaService = new MateriaService()
-    let naterias = materiasService.getAll()
+    let materias = materiaService.getAll()
 
     if(materias.lenght === 0) {
         materiaService.add(new MateriaModel ({nome: 'Back-End 1'}))

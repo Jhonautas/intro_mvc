@@ -1,7 +1,7 @@
 class MateriaService {
     constructor() {
         this.materias = []
-        this.updateListMateriasFromlocalStorage()
+        this.updateListAlunosFromLocalStorage() 
     }
 
     add(materia) {
@@ -21,7 +21,7 @@ class MateriaService {
     }
 
     getAll () {
-        returnthis.materias
+        return this.materias
     }
 
     updateLocalStorage() {
